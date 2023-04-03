@@ -1,0 +1,16 @@
+body  {
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  background-color: rgb(199, 123, 0);
+}
+
+.nav-link {
+  color: rgb(255, 255, 87);
+  text-align: center;
+}
+
+nav ul li:hover a {
+  color: rgb(249, 255, 207) !important;
+}
