@@ -1,16 +1,39 @@
 body  {
   font-family: 'Montserrat', sans-serif;
+  background-image: url("images/paper.JPG");
 }
 
 nav {
-  background-color: rgb(199, 123, 0);
+  background-color: rgb(50, 39, 32);
 }
 
 .nav-link {
-  color: rgb(255, 255, 87);
+  color:blanchedalmond;
   text-align: center;
 }
 
 nav ul li:hover a {
   color: rgb(249, 255, 207) !important;
+}
+
+.hero {
+  background-color: rgb(95, 76, 63);
+  height: 450px;
+  align-items: center;
+}
+
+.hero h1 {
+  font-weight: 700;
+  font-size: 100px;
+  letter-spacing: 8px;
+  color:blanchedalmond;
+  margin-left: 250px;
+}
+
+.hero h2 {
+  font-weight: 100;
+  font-size: 20px;
+  letter-spacing: 5px;
+  color:rgb(158, 145, 125);
+  margin-left: 250px;
 }
