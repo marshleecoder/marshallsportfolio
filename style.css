@@ -16,9 +16,10 @@ nav ul li:hover a {
 }
 
 .hero {
-  background-color: rgb(95, 76, 63);
+  background-color: rgba(95, 76, 63, .8);
   height: 450px;
   align-items: center;
+  text-align: end;
 }
 
 .hero h1 {
@@ -33,26 +34,72 @@ nav ul li:hover a {
   font-weight: 100;
   font-size: 20px;
   letter-spacing: 5px;
-  color:rgb(158, 145, 125);
+  color:rgb(158, 145, 125,);
   margin-left: 250px;
 }
 
+.titles {
+  font-weight: 700;
+  font-size: 75px;
+  color:blanchedalmond;
+  margin-left: 250px;
+}
+
+.name {
+  font-size: 55px;
+}
+
+.description {
+  font-weight: 100;
+  font-size: 18px;
+  color:blanchedalmond;
+  margin-left: 50px;
+  text-align: end;
+}
+
 .projects {
+  font-size: 14px;
   font-weight: 500;
   font-style: bolder;
   color: black;
+  margin: 10px;
 }
 
 .project-text {
   background-color: rgba(95, 76, 63, .5);
+  margin: 10px auto 20px 5px;
+  padding: 3px 10px 0 0;
+
 }
 
 .rectangles-img {
   display: flex;
-  width: 8em !important;
-  height: 6em !important;
-  border-radius: 35px;
-  margin-left: 20px;
+  width: 28em;
+  height: 15em;
   -o-object-fit: cover;
   object-fit: cover;
+  float: right;
+  margin: 10px 5px 20px auto;
+}
+
+.rectangles-img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+#about {
+  background-color: rgba(95, 76, 63, .8);
+  max-height: 450px;
+}
+
+#lets-connect {
+  background-color: rgb(50, 39, 32);
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+#footer {
+  margin-bottom: 0;
+  margin-right: 0;
 }
