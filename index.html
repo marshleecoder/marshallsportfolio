@@ -9,6 +9,13 @@
 
   <link rel="stylesheet" type="text/css" href="./style.css">
 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ramabhadra">
+  <style>
+  body {
+    font-family: "Ramabhadra", sans-serif, Arial, Helvetica;
+  }
+  </style>
+
   <title>Marshall Couture</title>
 </head>
 <body>
@@ -20,16 +27,16 @@
     <div id="navbarNav">
       <ul class="navbar-nav text-center">
         <li class="nav-item">
-          <a class="nav-link" href="#">home</a>
+          <a class="nav-link" href="#home">home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">projects</a>
+          <a class="nav-link" href="#projects">projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">about</a>
+          <a class="nav-link" href="#about">about</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">let's connect</a>
+          <a class="nav-link" href="#lets-connect">let's connect</a>
         </li>
       </ul>
     </div>
@@ -39,7 +46,7 @@
   <!-- Hero -->
 
   <div class="container-fluid">
-    <div class="row hero">
+    <div class="row hero" id="home">
       <div class="col-12 col-md-6">
         <h1>Hi, I'm Marshall</h1>
         <h2>Future Web Dev Specialist.</h2>
@@ -49,51 +56,62 @@
 
     <!-- Projects -->
 
-    <div class="row mt-3">
-      <div class="col-12 col-md-6">
-        <img src="#">
+
+    <div class="row projects mt-5 pt-5" id="projects">
+      <div class="col-12 col-md-6 d-flex p-5">
+        <img src="./images/Airbnb_Clone_crop1.jpg" class="rounded rectangle-img img-responsive" alt="Airbnb News Clone">
       </div>
-      <div class="col-12 col-md-6">
-        <h1>Project Name</h1>
-        <h2>Description</h2>
+      <div class="col-12 col-md-4 project-text ps-5">
+        <h1>Airbnb News Clone</h1>
+        <p>My third clone, now working with Bootstrap 4. My biggest challenge with this was keeping the images in uniform frames while maintaining the responsive aspect ratios. In the end I believe I was able to come up with satisfying results.</p>
         <!--Tech Used Icons-->
-        <p><img src="#"><img src="#"></p>
-        <button>See Live</button>
+        <p><a href="https://timely-smakager-adedfb.netlify.app/" class="btn btn-dark" target="_blank">See Live</a><img src="./images/icons8-html-5.svg"><img src="./images/icons8-css3.svg"></p>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12 col-md-6">
-        <img src="#">
+    <hr>
+    <div class="row projects">
+      <div class="col-12 col-md-6 p-5 ">
+        <img src="./images/Newsweek_Clone_crop1.jpg" class="rounded rectangle-img img-responsive" alt="Newsweek Clone">
       </div>
-      <div class="col-12 col-md-6">
-        <h1>Project Name</h1>
-        <h2>Description</h2>
+      <div class="col-12 col-md-4 project-text ps-5">
+        <h1>Newsweek Clone</h1>
+        <p>My first go at maintaining breakpoints in a responsive flow with flexbox. I was pretty confused at how to arrange the columns and rows at first but eventually I found my way successfully.</p>
         <!--Tech Used Icons-->
-        <p><img src="#"><img src="#"></p>
-        <button>See Live</button>
+        <p><a href="https://comfy-starburst-5e3023.netlify.app/" class="btn btn-dark" target="_blank">See Live</a><img src="./images/icons8-html-5.svg"><img src="./images/icons8-css3.svg"></p>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12 col-md-6">
-        <img src="#">
+    <hr>
+    <div class="row projects">
+      <div class="col-12 col-md-6 p-5 ">
+        <img src="./images/Apple_Clone_crop1.jpg" class="rounded rectangle-img img-responsive" alt="Apple Clone">
       </div>
-      <div class="col-12 col-md-6">
-        <h1>Project Name</h1>
-        <h2>Description</h2>
+      <div class="col-12 col-md-4 project-text ps-5">
+        <h1>Apple Clone</h1>
+        <p>The very first clone wow! I had learned so much in such a short period of time and it was all new. Overwhelming to say the least but this project became pivitol in gaining the ability to take hold of all available resources and see it through to the end.</p>
         <!--Tech Used Icons-->
-        <p><img src="#"><img src="#"></p>
-        <button>See Live</button>
+        <p><a href="https://bespoke-naiad-d56aac.netlify.app/" class="btn btn-dark" target="_blank">See Live</a><img src="./images/icons8-html-5.svg"><img src="./images/icons8-css3.svg"><img src="./images/icons8-bootstrap.svg"></p>
       </div>
     </div>
 
     <!-- About -->
 
-    <div class="row mt-5">
+    <div class="row mt-3" id="about">
+      <div class="row mt-5" >
       <div class="col-12">
         <h1>Marshall Couture</h1>
         <h2>Description</h2>
         <!--Social Icons-->
         <p><img src="#"><img src="#"></p>
+      </div>
+    </div>
+
+    <!-- Let's Connect -->
+
+    <div class="row mt-3" id="lets-connect">
+      <div class="row mt-5" >
+      <div class="col-12">
+        <h1>Let's Connect</h1>
+        <form></form>
       </div>
     </div>
   </div>

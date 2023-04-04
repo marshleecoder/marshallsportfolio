@@ -1,5 +1,4 @@
 body  {
-  font-family: 'Montserrat', sans-serif;
   background-image: url("images/paper.JPG");
 }
 
@@ -36,4 +35,24 @@ nav ul li:hover a {
   letter-spacing: 5px;
   color:rgb(158, 145, 125);
   margin-left: 250px;
+}
+
+.projects {
+  font-weight: 500;
+  font-style: bolder;
+  color: black;
+}
+
+.project-text {
+  background-color: rgba(95, 76, 63, .5);
+}
+
+.rectangles-img {
+  display: flex;
+  width: 8em !important;
+  height: 6em !important;
+  border-radius: 35px;
+  margin-left: 20px;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
