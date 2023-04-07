@@ -4,8 +4,8 @@ nav {
 
 .nav-link {
   color: blanchedalmond;
-  text-align: center;
   font-size: larger;
+  font-weight: 500;
 }
 
 nav ul li:hover a {
@@ -20,29 +20,27 @@ body {
   background-color: rgba(95, 76, 63, 0.8);
   height: 450px;
   align-items: center;
-  text-align: end;
 }
 
 .hero h2 {
-  font-weight: 100;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 22px;
   letter-spacing: 5px;
-  color: rgb(158, 145, 125);
-}
-
-.description {
-  font-weight: 20;
-  font-size: 18px;
   color: blanchedalmond;
 }
 
 .background {
   background-color: rgba(95, 76, 63, 0.5);
-  max-width: 500px;
   height: auto;
+  max-width: 450px;
 }
 
-.rectangles-img:hover {
+.image-fit {
+padding: 5px;
+max-width: 600px;
+}
+
+.overlay:hover {
   cursor: pointer;
   opacity: 0.5;
   transition: 0.5s;
@@ -50,32 +48,27 @@ body {
 
 #about {
   background-color: rgba(95, 76, 63, 0.8);
-  color: blanchedalmond;
-  min-height: 450px;
-  align-items: center;
 }
 
 #lets-connect {
   background-color: rgb(74, 59, 48);
-  min-height: 350px;
-  min-width: 100%;
-  align-items: center;
 }
 
 .footer-text {
   background-color: rgba(95, 76, 63, 0.8);
-  font-weight: 20;
+  font-weight: lighter;
   font-size: 18;
   color: blanchedalmond;
-  text-align: center;
-  align-items: center;
 }
 
 .connect-text {
-  font-weight: 20;
   font-size: 18px;
   color: blanchedalmond;
-  text-align: end;
+}
+
+.projects-text {
+  font-size: 16px;
+  color: rgb(0, 0, 0);
 }
 
 ul.no-bullets {
@@ -106,54 +99,26 @@ ul.no-bullets {
   color: blanchedalmond;
 }
 
-.titles {
-  font-weight: 700;
-  font-size: 75px;
-  color: blanchedalmond;
-  text-align: end;
-}
-
-.name {
-  font-size: 55px;
-}
-
 a {
   color: rgb(255, 196, 107);
   text-decoration: none;
 }
 
+.hero h1 {
+  font-weight: 700;
+  font-size: 85px;
+  color: blanchedalmond;
+}
 
-
-@media (min-width: 992px) {
-  .hero h1 {
-    font-weight: 700;
-    font-size: 85px;
-    color: blanchedalmond;
+@media (max-width: 991px) {
+  .background {
+    background-color: rgba(95, 76, 63, 0);
+    max-width: 500px
   }
 }
 
 @media (max-width: 991px) {
-  .hero h1 {
-    font-weight: 700;
-    font-size: 70px;
+  .title2 {
     color: blanchedalmond;
-    text-align: center;
   }
 }
-
-@media (max-width: 991px) {
-  .center-text {
-    text-align: center;
-    justify-content: center;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
-@media (min-width: 992px) {
-  .center-text {
-    margin-left: 50px;
-    justify-items: end;
-  }
-}
-
