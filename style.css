@@ -36,8 +36,8 @@ body {
 }
 
 .image-fit {
-padding: 5px;
-max-width: 600px;
+  padding: 5px;
+  max-width: 600px;
 }
 
 .overlay:hover {
@@ -69,6 +69,12 @@ max-width: 600px;
 .projects-text {
   font-size: 16px;
   color: rgb(0, 0, 0);
+}
+
+.projects-text br {
+  display: block;
+  content: "";
+  margin: 1em; /* Adjust the margin as needed */
 }
 
 ul.no-bullets {
@@ -113,7 +119,7 @@ a {
 @media (max-width: 991px) {
   .background {
     background-color: rgba(95, 76, 63, 0);
-    max-width: 500px
+    max-width: 500px;
   }
 }
 
